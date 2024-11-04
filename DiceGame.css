@@ -1,0 +1,39 @@
+#Container {
+    text-align: center;
+    border: 1px solid black;
+    width: 300px;
+    margin: auto;
+    height: auto;
+    border-radius: 10px;
+}
+
+#noOfDice {
+    width: 75px;
+    border-radius: 10px;
+}
+
+#subbtn {
+    padding: 5px;
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+    border: none;
+}
+#subbtn:hover {
+    background-color: rgb(0, 139, 39);
+}
+#diceImages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+#diceImages img {
+    border-radius: 10px;
+    border: 1px solid black;
+    width: 50px; /* Set a fixed width for the images */
+    height: 50px; /* Set a fixed height for the images */
+    margin: 5px; /* Add margin for spacing between images */
+}
